@@ -116,7 +116,7 @@ ul {
 
 .section-title h2 {
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 
@@ -140,6 +140,7 @@ ul {
 
 .section-title.left {
 	text-align: left;
+	color: black;
 }
 
 .section-title.left:after {
@@ -149,6 +150,7 @@ ul {
 
 .section-title.dark h2 {
 	color: #0b1033;
+	padding-top: 320px;
 }
 
 /*------------------------
