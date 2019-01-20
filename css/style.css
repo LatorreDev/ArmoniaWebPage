@@ -21,6 +21,7 @@ img {
 	max-width: 100%;
 }
 
+
 h1,
 h2,
 h3,
@@ -292,6 +293,7 @@ ul {
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+
 }
 
 .header-section .menu-list {
@@ -1729,9 +1731,15 @@ ul {
 	.owl-carousel .owl-nav .owl-next {
 		width: 50px;
 	}
+
 	.hero-content img {
-		max-width: 280px;
+		max-width: 150px;
 	}
+
+	#main-logo{
+		width: 10%;
+	}
+	
 	.test-overlay {
 		display: none;
 	}
@@ -1814,9 +1822,16 @@ ul {
 	.header-section {
 		padding: 0 20px;
 	}
-	.hero-content {
-		display: none;
-	}
+.hero-content {
+	/*	max-width: 20%; */
+		position: absolute;
+		width: calc(100% - 210px);
+		height: 100%;
+		margin-left: 105px;
+		display: table;
+		text-align: center;
+		z-index: 5;
+	} 
 	.intro-video {
 		margin-top: -30px;
 	}
