@@ -33,11 +33,15 @@ h6 {
 h2 {
 	font-size: 36px;
 	margin-bottom: 30px;
-	color: white;
+	color: rgb(43, 230, 171);
 }
 
 label{
-	color:white;
+	color: rgb(43, 230, 171);
+}
+
+.indicates-required{
+	color: rgb(43, 230, 171);
 }
 
 p {
