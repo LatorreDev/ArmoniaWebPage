@@ -1523,9 +1523,19 @@ ul {
 		width: 400px;
 	}
 
-	.col-sm-6{
+	.services-section .container .section-title.dark .row .col-sm-6{
+		width: 50%;
+		margin-top: 20px;
+	}
+
+	body > div.about-section > div.card-section > div > div > div:nth-child(3){
 		width: 50%;
 		margin-top: 100px;
+	}
+
+	.col-sm-6{
+		width: 50%;
+		margin-top: 20px;
 	}
 }
 
