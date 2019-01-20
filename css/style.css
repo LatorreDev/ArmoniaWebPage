@@ -152,7 +152,7 @@ ul {
 
 .section-title.dark h2 {
 	color: #0b1033;
-	padding-top: 150px;
+	padding-top: 300px;
 }
 
 /*------------------------
@@ -1501,30 +1501,40 @@ ul {
 
 /* Desktop :768px. */
 @media only screen and (min-width: 1550px) {
-	#testimonial-slide .owl-dots {
-		right: -100px;
-	}
 	.test-overlay {
 		width: 500px;
 	}
+
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1549px) {
-	#testimonial-slide .owl-dots {
-		right: -40px;
-	}
+	
 	.test-overlay {
 		width: 400px;
 	}
-}
 
-@media only screen and (min-width: 992px) and (max-width: 1279px) {
-	#testimonial-slide .owl-dots {
-		right: -25px;
+	.col-sm-6{
+		width: 50%;
+		margin-top: 100px;
 	}
 }
 
+
+
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
+
+	.col-sm-6{
+		width: 50%;
+	}
+	
+}
+
 @media only screen and (max-width: 1254px) {
+
+	.test-overlay {
+		display: none;
+	}
 	#testimonial-slide .owl-dots {
 		top: 95%;
 		-webkit-transform: rotate(-90deg);
@@ -1536,7 +1546,50 @@ ul {
 		left: 50%;
 		margin-left: -4px;
 	}
+	.card-section {
+		padding-bottom: 0;
+	}
+	.lab-card {
+		margin-bottom: 80px;
+	}
+	.promotion-section .promo-btn-area {
+		text-align: left;
+	}
+	.contact-section::after {
+		width: 100%;
+		right: 0;
+	}
+	.contact-info {
+		margin-bottom: 95px;
+	}
+	.col-push {
+		left: 0;
+	}
+	.col-pull {
+		right: 0;
+	}
+	.sv-card {
+		margin-bottom: 30px;
+	}
+	.newsletter-section h2 {
+		margin-bottom: 30px;
+	}
+	.circle-progress {
+		margin-bottom: 40px;
+	}
+	.icon-box {
+		margin-bottom: 30px;
+	}
+	.facts .fact {
+		margin-bottom: 40px;
+	}
+
+	.col-sm-6{
+		width: 50%;
+	}
 }
+	
+
 
 
 /* Tablet :768px. */
@@ -1592,6 +1645,11 @@ ul {
 	.facts .fact {
 		margin-bottom: 40px;
 	}
+
+	.col-sm-6{
+		width: 33.333333%;
+	}
+
 }
 
 /* Large Mobile :480px. */

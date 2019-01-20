@@ -2015,10 +2015,6 @@ pre code {
     .container {
         width: 1170px
     }
-
-    .col-sm-6{
-		width: 50%;
-	}
 }
 
 .container-fluid {
@@ -2578,7 +2574,7 @@ pre code {
     }
 
     .col-md-4 {
-        width: 50%;
+        width: 33.33333333%
     }
 
     .col-md-3 {
