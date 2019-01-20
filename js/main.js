@@ -22,14 +22,16 @@ function loader() {
 /*------------------
 	Navigation
 --------------------*/
-function responsive() {
+/*function responsive() {
 	// Responsive 
 	$('.responsive').on('click', function(event) {
 		$('.menu-list').slideToggle(400);
 		event.preventDefault();
-	});
+	}
+	);
+	
 }
-
+*/
 
 
 /*------------------

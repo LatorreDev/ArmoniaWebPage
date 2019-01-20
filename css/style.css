@@ -117,7 +117,7 @@ ul {
 
 .spad {
 	padding-top: 95px;
- 	padding-bottom: 95px;
+ 	/* padding-bottom: 95px; */
 }
 
 .section-title {
@@ -774,6 +774,45 @@ ul {
 /*------------------------
 	Contact section
 --------------------------*/
+
+/*Media Icons */
+
+.social {
+    border: 0;
+    font-size: 30px;
+}
+
+.fa-icons {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+} */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+	color: white;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.fa-instagram{
+	color: white;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+/* --------*/
+
 .contact-section {
 	position: relative;
 }
@@ -866,6 +905,7 @@ ul {
 .footer-section {
 	background: #220c3b;
 	text-align: center;
+	margin-top: 120px;
 }
 
 .footer-section h2 {
