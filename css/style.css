@@ -32,6 +32,7 @@ h6 {
 
 h2 {
 	font-size: 36px;
+	margin-bottom: 30px;
 }
 
 p {
@@ -78,7 +79,7 @@ ul {
 }
 
 .mt60 {
-	margin-top: 70px;
+	margin-top: 0px;
 }
 
 .mr20 {
@@ -109,14 +110,15 @@ ul {
 
 .section-title {
 	text-align: center;
-	margin-bottom: 90px;
+	margin-bottom: 45px;
 	padding-top: 50px;
 	position: relative;
+	padding-bottom: 0px;
 }
 
 .section-title h2 {
 	text-transform: uppercase;
-	color: black;
+	color: white;
 	font-weight: 400;
 }
 
@@ -150,7 +152,7 @@ ul {
 
 .section-title.dark h2 {
 	color: #0b1033;
-	padding-top: 320px;
+	padding-top: 150px;
 }
 
 /*------------------------
@@ -490,7 +492,7 @@ ul {
 	-webkit-transform: translateY(50%);
 	    -ms-transform: translateY(50%);
 	        transform: translateY(50%);
-	margin-top: -90px;
+	margin-top: -150px;
 }
 
 .intro-video img {
