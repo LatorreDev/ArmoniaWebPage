@@ -161,7 +161,7 @@ ul {
 
 .section-title.dark h2 {
 	color: #0b1033;
-	padding-top: 300px;
+	 padding-top: 300px;
 }
 
 /*------------------------
@@ -1630,6 +1630,12 @@ ul {
 	.card-section {
 		padding-bottom: 0;
 	}
+
+	.section-title.dark h2 {
+		color: #0b1033;
+		 padding-top: 80px;
+	}
+
 	.lab-card {
 		margin-bottom: 80px;
 	}
@@ -1675,8 +1681,14 @@ ul {
 @media only screen and (max-width: 767px) {
 	.header-section .logo {
 		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
+
+	.section-title.dark h2 {
+		color: #0b1033;
+		 padding-top: 50px;
+	}
+
 	.header-section .menu-list {
 		display: none;
 		float: none;
