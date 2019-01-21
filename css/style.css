@@ -117,7 +117,6 @@ ul {
 
 .spad {
 	padding-top: 95px;
- 	padding-bottom: 95px;
 }
 
 .section-title {
@@ -740,6 +739,7 @@ ul {
 	color: #2be6ab;
 	font-weight: 400;
 	text-transform: uppercase;
+	padding-bottom: 30px;
 }
 
 
@@ -906,6 +906,7 @@ ul {
 	background: #220c3b;
 	text-align: center;
 	margin-top: 120px;
+	padding-bottom: 1px;
 }
 
 .footer-section h2 {
