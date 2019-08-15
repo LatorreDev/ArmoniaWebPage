@@ -2,7 +2,7 @@
 
 This Web page was made using [this template](https://colorlib.com/wp/template/labs/) created by colorlib
 
-and is published on [Armonización Estética](https://armonizacionestetica.com)
+and is as demo published on [Armonización Estética](https://latorredev.github.io/ArmonizacionWebPage/)
 
 However I made a lot of changes on the code, you can download the original source from colorlib and this source and compare :)
 
